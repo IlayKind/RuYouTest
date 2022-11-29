@@ -1,0 +1,25 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.wrapper{
+  width: 80%;
+  height: 90vh;
+  margin: 30px auto;
+  border-radius: 30px;
+  background: #1F2223;
+  position: relative;
+
+  .content__container{
+    width: 90%;
+    height: 88%;
+    background: #000000;
+    border-radius: 28px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+  }
+}
